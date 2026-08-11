@@ -1,13 +1,13 @@
 # CTF Writeups
 
-[](https://github.com/illusi1/ctf-writeups#ctf-writeups)
+[](https://github.com/zunh22/CTF-Writeups#ctf-writeups)
 
 Writeups for CTF I've participated in.  
 I'm **zunh22**, competing in a duo as **0xF1a9** ([CTFtime](https://ctftime.org/team/443780)).
 
 ## Events
 
-[](https://github.com/illusi1/ctf-writeups#events)
+[](https://github.com/zunh22/CTF-Writeups#events)
 
 |Event|Date|Placement|
 |---|---|---|
@@ -16,6 +16,6 @@ I'm **zunh22**, competing in a duo as **0xF1a9** ([CTFtime](https://ctftime.o
 
 ## What's here
 
-[](https://github.com/illusi1/ctf-writeups#whats-here)
+[](https://github.com/zunh22/CTF-Writeups#whats-here)
 
 Not every solve gets a writeup — only the ones where the approach was worth keeping.
