@@ -9,3 +9,4 @@ Selected writeups, not a complete solve log.
 |                                        Challenge                                        | Category |                    Key technique                     |
 | :-------------------------------------------------------------------------------------: | :------: | :--------------------------------------------------: |
 | [wpm-game](https://github.com/zunh22/CTF-Writeups/blob/main/scriptCTF_2026/wpm-game.md) |   Web    | eval Injection and Binary Expansion (Double-and-add) |
+|                                                                                         |          |                                                      |
