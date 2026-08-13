@@ -9,10 +9,10 @@ I'm **zunh22**, competing in a duo as **0xF1a9** ([CTFtime](https://ctftime.o
 
 [](https://github.com/zunh22/CTF-Writeups#events)
 
-|Event|Date|Placement|
-|---|---|---|
-|[scriptCTF 2026](https://github.com/zunh22/CTF-Writeups/tree/main/scriptCTF_2026)|Aug 2026|47 / 892|
-|KaliTeam_2026|Aug 2026|141 / 645|
+| Event                                                                             | Date     | Placement |
+| --------------------------------------------------------------------------------- | -------- | --------- |
+| [scriptCTF 2026](https://github.com/zunh22/CTF-Writeups/tree/main/scriptCTF_2026) | Aug 2026 | 19 / 777  |
+| KaliTeam_2026                                                                     | Aug 2026 | 141 / 645 |
 
 ## What's here
 
