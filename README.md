@@ -19,7 +19,3 @@ I'm **zunh22**, competing in a duo as **0xF1a9** ([CTFtime](https://ctftime.o
 [](https://github.com/zunh22/CTF-Writeups#whats-here)
 
 Not every solve gets a writeup — only the ones where the approach was worth keeping.
-
-## Portfolio
-
-[Security Research Notes](https://zunh22.github.io/CTF-Writeups/) — malware and CVE analysis, wargame writeups, and CTF recaps.
