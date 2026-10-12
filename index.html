@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="리버싱, 웹 보안, 워게임과 CTF를 기록하는 보안 연구 노트.">
+  <meta name="theme-color" content="#101613">
+  <title>zunh22 — Security Research Notes</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="홈"><span class="brand-mark">0x</span>junhee<span class="brand-cursor">_</span></a>
+    <nav aria-label="주 메뉴">
+      <a href="#writing">분석 노트</a>
+      <button class="theme-toggle" type="button" aria-label="다크모드 켜기" title="다크모드 전환"><span class="theme-icon">☾</span></button>
+      <a class="github-link" href="https://github.com/zunh22" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> SECURITY RESEARCH / FIELD NOTES</p>
+        <h1>파고들고,<br><em>기록합니다.</em></h1>
+        <p class="intro">악성코드와 CVE를 분석하고, 워게임과 CTF에서 배운 내용을 기록합니다.</p>
+        <div class="hero-actions"><a class="button primary" href="#writing">분석 노트 보기 <span>↓</span></a><a class="text-link" href="posts/first-malware-analysis.html">첫 글 추천 <span>↗</span></a></div>
+      </div>
+      <div class="terminal" aria-label="분석 노트 터미널 장식">
+        <div class="terminal-bar"><div class="dots"><i></i><i></i><i></i></div><span>~/research/notes</span><span class="terminal-state">● ONLINE</span></div>
+        <div class="terminal-body"><p><b>junhee@lab</b>:<span>~</span>$ cat focus.txt</p><p class="code-line">reverse engineering</p><p class="code-line">web security</p><p class="code-line">malware analysis</p><p class="terminal-gap"><b>junhee@lab</b>:<span>~</span>$ <i class="caret"></i></p></div>
+        <div class="terminal-foot"><span>LEARN IN PUBLIC</span><span>EST. 2026</span></div>
+      </div>
+      <div class="hero-index">RESEARCH NOTES <span>LEARN · ANALYZE · SHARE</span></div>
+    </section>
+
+    <section class="section writing" id="writing">
+      <div class="section-heading"><div><p class="eyebrow">01 / TOPICS</p><h2>분석 노트<span class="accent">.</span></h2></div><p class="section-note">주 1–2회 업데이트 목표</p></div>
+      <div class="category-grid">
+        <a class="category-card card-green" href="posts/?category=malware" aria-label="악성코드 분석 글 모음">
+          <div class="card-top"><span class="card-number">01</span><span class="card-icon">⌬</span></div><h3>악성코드 분석</h3><p>정적·동적 분석으로 파일의 구조와 행위를 살펴봅니다.</p><div class="card-bottom"><span>MALWARE · RE</span><b>↗</b></div>
+        </a>
+        <a class="category-card card-orange" href="posts/?category=cve" aria-label="CVE 분석 글 모음">
+          <div class="card-top"><span class="card-number">02</span><span class="card-icon">⌁</span></div><h3>CVE 분석 & 실습</h3><p>취약점 원인과 영향, 안전한 재현 및 대응 방법을 정리합니다.</p><div class="card-bottom"><span>VULNERABILITY · LAB</span><b>↗</b></div>
+        </a>
+        <a class="category-card card-blue" href="posts/?category=wargame" aria-label="워게임 풀이 글 모음">
+          <div class="card-top"><span class="card-number">03</span><span class="card-icon">⌘</span></div><h3>워게임 풀이</h3><p>문제의 핵심 아이디어와 풀이 과정을 재현 가능하게 씁니다.</p><div class="card-bottom"><span>CHALLENGE · WRITEUP</span><b>↗</b></div>
+        </a>
+        <a class="category-card card-purple" href="posts/?category=ctf" aria-label="CTF 풀이와 후기 글 모음">
+          <div class="card-top"><span class="card-number">04</span><span class="card-icon">⚑</span></div><h3>CTF 풀이 & 후기</h3><p>대회 문제 풀이와 팀 활동, 다음 대회를 위한 회고를 남깁니다.</p><div class="card-bottom"><span>CTF · REVIEW</span><b>↗</b></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="feature-art"><div class="scan-grid"></div><div class="hex-orbit orbit-one"></div><div class="hex-orbit orbit-two"></div><div class="sample-chip">PE<span>32</span></div><div class="art-label">STATIC ANALYSIS<br><b>NO EXECUTION</b></div><span class="art-cross cross-a">+</span><span class="art-cross cross-b">+</span></div>
+      <div class="feature-copy"><p class="eyebrow"><span class="tag">FIRST ARTICLE</span> 추천 주제</p><h2>WannaCry 정적 분석</h2><p><strong>PE 구조와 문자열을 정적으로 살펴보는 글</strong>로 시작해 보세요. 공개 분석 자료를 토대로 관찰과 추론을 나누어 쓰면 분석 과정이 잘 드러납니다.</p><a class="button dark" href="posts/first-malware-analysis.html">글 기획 보기 <span>↗</span></a><small>샘플 실행·배포 없이 공개 자료 중심으로 분석</small></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">0x</span>junhee<span class="brand-cursor">_</span></a><span>Security Research Notes · 2026</span><a href="#top">TOP ↑</a></footer>
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const button = document.querySelector('.theme-toggle');
+      const icon = button.querySelector('.theme-icon');
+      const setTheme = (theme) => {
+        root.dataset.theme = theme;
+        icon.textContent = theme === 'dark' ? '☀' : '☾';
+        button.setAttribute('aria-label', theme === 'dark' ? '라이트모드 켜기' : '다크모드 켜기');
+      };
+      setTheme(localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+      button.addEventListener('click', () => {
+        const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', next);
+        setTheme(next);
+      });
+    })();
+  </script>
+</body>
+</html>
