@@ -19,3 +19,6 @@ html[data-theme="dark"] .article .lead,html[data-theme="dark"] .article p,html[d
 html[data-theme="dark"] .callout{background:#202c23;color:#c4d2c4}
 html[data-theme="dark"] .post-row{border-color:#2a352d}
 html[data-theme="dark"] .post-row h2{color:#e5ece5}
+
+html[data-theme="dark"] .primary{background:#b8f36c;color:#17211c}
+html[data-theme="dark"] .primary span{color:#486b2d}
